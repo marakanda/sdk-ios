@@ -1,6 +1,6 @@
 # iOS
 
-The Device Data Collector (**DDC**) for iOS manual and example implementations in [Objective-C](./example-app-oc) and [Swift](./example-app-swift).
+The Device Data Collector (**DDC**) for iOS manual and example implementations in [Objective-C](./example-app-oc) and [Swift](./example-app-swift). Latest release: 2.0.263.
 
 [Requirements](#requirements)<br/>[Installation](#installation)<br/>[Usage](#usage)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Permissions](#permissions)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Use the framework in Objective-C project](#use-the-framework-in-objective-c-project)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Use the framework in Swift project](#use-the-framework-in-swift-project)<br/> 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Associating collected data with a user/device identity](#associating-collected-data-with-a-userdevice-identity)<br/>        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Data collection frequency](#data-collection-frequency)<br/>[Trigger event on push notification](#trigger-event-on-push-notification)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[How it works](#how-it-works)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Shared data with App Groups](#shared-data-with-app-groups)<br/>        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Packaging](#packaging)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Create and configure a notification service extension](#create-and-configure-a-notification-service-extension)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SDK Usage](#sdk-usage)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Push notification requirements](#push-notification-requirements)<br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Example app](#example-app)
 
@@ -10,8 +10,8 @@ The Device Data Collector (**DDC**) for iOS manual and example implementations i
 
 | iddc.framework | Xcode |
 | -------------- | ----- |
-| iddc-xcode10.0 | 10.0  |
-| iddc-xcode10.1 | 10.1  |
+| iddc-xcode10.1 | 10.1 |
+| iddc-xcode10.2 | 10.2 |
 
 
 
@@ -20,7 +20,7 @@ The Device Data Collector (**DDC**) for iOS manual and example implementations i
 iOS DDC SDK is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'iddc-xcode${XCODE_VERSION}', '${DDC_SDK_VERSION}'
+pod 'iddc-xcode10.2', '2.0.263'
 ```
 
 [SEE EXAMPLE](./example-app-swift/Podfile#L11)
@@ -277,7 +277,7 @@ In your POD file add a new target:
 
 ```ruby
 target 'iddcSwiftNotification' do
-    pod 'iddc-xcode${XCODE_VERSION}', '${DDC_SDK_VERSION}'
+    pod 'iddc-xcode10.2', '2.0.263'
     use_frameworks!
 end
 ```
