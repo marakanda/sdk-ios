@@ -8,7 +8,7 @@ target 'iddc-oc' do
   # use_frameworks!
 
   # Pods for iddc-oc
-  pod 'iddc-xcode11.4', '2.5.338'
+  pod 'iddc-xcode11.5', '2.6.346'
 
   target 'iddc-ocTests' do
     inherit! :search_paths
