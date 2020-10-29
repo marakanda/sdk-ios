@@ -8,7 +8,7 @@ target 'iddc-swift' do
   use_frameworks!
 
   # Pods for iddc-swift
-  pod 'iddc-xcode12.0', '2.7.364'
+  pod 'iddc-xcode12.1', '2.7.367'
 
   target 'iddc-swiftTests' do
     inherit! :search_paths
@@ -24,7 +24,7 @@ end
 
 
 target 'iddcSwiftNotification' do
-    pod 'iddc-xcode12.0', '2.7.364'
+    pod 'iddc-xcode12.1', '2.7.367'
     use_frameworks!
 end
 
