@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  iddc-swift
-//
-//  Created by Zhihui Tang on 2017-10-11.
-//  Copyright © 2017 Crafttang. All rights reserved.
-//
-
 import UIKit
 import UserNotifications
 

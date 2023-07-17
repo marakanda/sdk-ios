@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  iddc-swift
-//
-//  Created by Zhihui Tang on 2017-10-11.
-//  Copyright © 2017 Crafttang. All rights reserved.
-//
-
 import UIKit
 import iddc
 import AdSupport
@@ -15,7 +7,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelResult: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "DDC(\(DeviceDataCollector.versionInfo))"
+        self.title = "Version \(DeviceDataCollector.versionInfo)"
     }
 
     override func didReceiveMemoryWarning() {

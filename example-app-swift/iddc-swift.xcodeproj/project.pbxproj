@@ -469,21 +469,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iddc-swift/Pods-iddc-swift-frameworks.sh",
-				"${PODS_ROOT}/iddc-xcode10.0/iddc.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-iddc-swift/Pods-iddc-swift-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/iddc-xcode14.3/iddc.framework/iddc",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iddc.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iddc-swift/Pods-iddc-swift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iddc-swift/Pods-iddc-swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B7F0BF26508070038AD5EB8 /* [CP] Check Pods Manifest.lock */ = {

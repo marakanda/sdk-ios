@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '11.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
 
@@ -8,7 +8,7 @@ target 'iddc-swift' do
   use_frameworks!
 
   # Pods for iddc-swift
-  pod 'iddc-xcode14.2', '2.7.421'
+  pod 'iddc-xcode14.3', '2.7.463'
 
   target 'iddc-swiftTests' do
     inherit! :search_paths
@@ -19,12 +19,12 @@ target 'iddc-swift' do
     inherit! :search_paths
     # Pods for testing
   end
-  
+
 end
 
 
 target 'iddcSwiftNotification' do
-    pod 'iddc-xcode14.2', '2.7.421'
+    pod 'iddc-xcode14.3', '2.7.463'
     use_frameworks!
 end
 
