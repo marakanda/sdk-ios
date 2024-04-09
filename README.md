@@ -1,6 +1,6 @@
 # iOS
 
-The Device Data Collector (**DDC**) for iOS manual and example implementation in [Swift](./example-app-swift). Latest release: 2.8.469.
+The Device Data Collector (**DDC**) for iOS manual and example implementation in [Swift](./example-app-swift). Latest release: 2.8.470.
 
 [Requirements](#requirements)<br/>
 [Installation](#installation)<br/>
