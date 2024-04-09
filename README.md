@@ -12,8 +12,8 @@ The Device Data Collector (**DDC**) for iOS manual and example implementation in
 
 | iddc.framework | Xcode | Version |
 | -------------- | ----- | ------- |
-| iddc-xcode15.0 | 15.0  | 2.7.466 |
 | iddc-xcode15.2 | 15.2  | 2.8.469 |
+| iddc-xcode15.3 | 15.3  | 2.8.470 |
 
 
 
@@ -22,7 +22,7 @@ The Device Data Collector (**DDC**) for iOS manual and example implementation in
 iOS DDC SDK is available through [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'iddc-xcode15.2', '2.8.469'
+pod 'iddc-xcode15.3', '2.8.470'
 ```
 
 [SEE EXAMPLE](./example-app-swift/Podfile#L11)
